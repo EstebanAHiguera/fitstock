@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import {Sidebar} from "./components/sidebar";
-import {Dashboard} from "./components/Dashboard";
-import {InventoryList} from "./components/InventoryList";
-import {Reports} from "./components/Reports";
-import {Settings} from "./components/Settings";
-import {Login} from "./components/Login";
+import {Sidebar} from "../components/sidebar";
+import {Dashboard} from "../components/Dashboard";
+import {InventoryList} from "../components/InventoryList";
+import {Reports} from "../components/Reports";
+import {Settings} from "../components/Settings";
+import {Login} from "../components/Login";
 
 export default function App() {
   const [currentView, setCurrentView] = useState('dashboard');

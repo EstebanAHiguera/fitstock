@@ -64,7 +64,7 @@ const initialEquipment = [
   },
 ];
 
-export function InventoryList({ onMenuClick }) {
+export function Reports({ onMenuClick }) {
   const [equipment, setEquipment] = useState(initialEquipment);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('Todas');
